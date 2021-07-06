@@ -1,0 +1,230 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+nav img{
+    margin: 10px;
+    height: 70px;
+    float: left;
+}
+
+
+nav{
+    flex:1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: cosmic, sans-serif;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    border-radius: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+a:hover{
+    color: orangered;
+    transition: all 0.2s ease;
+    background: #ccc;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+
+body {
+	background-color:#fff;
+	color:white;
+	text-rendering:optimizeLegibility;
+	font-size:16px;
+	font-family:'Work Sans','Arial',sans-serif;
+}
+
+header {
+	background-image:-webkit-linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.1)),url('header-img.jpg');
+	height:300vh;
+	background-size:cover;
+	background-position:center;
+	position:relative;
+}
+
+.header-box {
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	text-align:center;
+}
+
+
+
+.header-text-box {
+	margin-bottom:100px;
+}
+
+h1 {
+	font-size:400%;
+	color:white;
+	font-weight:400;
+	margin-bottom:20px;
+}
+
+h2 {
+	font-size:200%;
+	color:#fff;
+	font-weight:400;
+}
+
+
+.container{
+    
+    display: flex;
+    width: 600px;
+    margin-bottom: 50px;
+    margin: auto;
+    height: 200px;
+}
+
+.div1{
+    flex-basis: 50%;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.div2{
+    flex-basis: 50%;
+    text-align: center;
+    border: 2px solid black;
+    border-left: none;
+}
+
+
+
+ .container a{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    font-family: cosmic, sans-serif;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    
+
+}
+
+.container a:hover{
+    background-color: orange;
+    color: white;
+    border: none;
+    border-bottom: 2px solid white;
+    transition: 0.3s;
+}
+
+#notes{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border:1px solid black;
+    border-radius: 10px;    
+}
+
+img{
+    margin: 10px;
+}
+
+
+.container h3{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-family: cosmic, sans-serif;
+}
+#instruction img{
+    width: 100%;
+}
+
+.contact{
+    padding: 40px;
+    background-color: grey;
+}
+
+.contact h2{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+}
+
+.contact .contact_form{
+    text-align: center;
+}
+
+.contact .contact_form form{
+    padding: 20px;
+}
+
+.contact .contact_form form input{
+    width: 30%;
+    margin: 5px;
+    padding: 8px;
+    border-radius: 2px;
+    outline: none;
+    border: 2px solid black;
+}
+
+.contact .contact_form form textarea{
+    width: 30%;
+    margin: 5px;
+    padding: 8px;
+    border-radius: 2px;
+    outline: none;
+    border: 2px solid black;
+}
+
+.contact .contact_form form button{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    font-family: cosmic, sans-serif;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.contact .contact_form form button:hover{
+    background-color: orange;
+    transition: 0.2s;
+}
+
+.contact p{
+    text-align: center;
+}
+
+.contact span{
+    color: red;
+    font-family: cosmic, sans-serif;
+}
